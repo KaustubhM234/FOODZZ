@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express()
 const port = 8000
-const mongoURI = 'mongodb://kezzz:SXpDI7gZq6DIUCJv@ac-nq7cey4-shard-00-00.jgukfin.mongodb.net:27017,ac-nq7cey4-shard-00-01.jgukfin.mongodb.net:27017,ac-nq7cey4-shard-00-02.jgukfin.mongodb.net:27017/foodmern?ssl=true&replicaSet=atlas-u0awce-shard-0&authSource=admin&retryWrites=true&w=majority'
+const mongoURI = 'mongodb://xyz'
 
 mongoose.connect(mongoURI,{useNewUrlParser:true},async(err,result)=>{
     if (err)  console.log(err)
